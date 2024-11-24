@@ -8,11 +8,9 @@ import { ProductSolution } from "@/components/home/ProductSolution";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 
- 
-
 export default function Home() {
   return (
-     <div>
+    <div>
       <Header />
       <HeroSection />
       <ProductSolution />
@@ -21,6 +19,6 @@ export default function Home() {
       <FaqSection />
       <JoinUs />
       <Footer />
-     </div>
+    </div>
   );
 }
